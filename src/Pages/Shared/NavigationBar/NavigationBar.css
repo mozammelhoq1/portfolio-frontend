@@ -1,0 +1,92 @@
+.custom-btn {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.4),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  /* style */
+.btn-style {
+    font-weight: bold;
+    line-height: 42px;
+    color: antiquewhite;
+    padding: 0;
+    border: none;
+    
+  background: transparent;
+  }
+  .btn-style:hover {
+    color: whitesmoke;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-style:before,
+  .btn-style:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:3px;
+    width:0;
+    background: whitesmoke;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:600ms ease all;
+  }
+  .btn-style:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-style:hover:before,
+  .btn-style:hover:after{
+    width:100%;
+    transition:1000ms ease all;
+  }
+
+
+  .menu-btn {
+    color: #fff;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    position: relative;
+    
+     /* box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1); */
+     outline: none;
+    
+  }
+  .btn-design {
+    background: transparent;
+    
+    border: none;
+    
+  }
+  .btn-design:before, .btn-design:after {
+    height: 0%;
+    width: 1px;
+  }
+  .btn-design:hover {
+    box-shadow:   4px 4px 6px 0 rgba(0,0,0,.3),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+    
