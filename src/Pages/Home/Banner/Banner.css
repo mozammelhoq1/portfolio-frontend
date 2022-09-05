@@ -1,21 +1,20 @@
+.banner {
+  background-image: linear-gradient(
+    rgba(198, 187, 247, 0.5),
+    rgba(188, 218, 252, 0.5),
+    rgba(250, 248, 248, 0.5)
+  );
+}
 
-  
-  
-  
-   img {
-    padding: 20px;
-    background: linear-gradient(145deg, #e2e8ec, #caccce, #c2c8cc, #c7e1f3);
-    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.4),
-    7px 7px 20px 0px rgba(0,0,0,.1),
-    4px 4px 5px 0px rgba(0,0,0,.1);;
-    /* border-radius: 10px; */
-    
-  }
-  
-  img:hover{
-    border: 2px solid ;
-    background: transparent;
-  }
-  
-  
-  
+.banner img {
+  padding: 20px;
+  background: linear-gradient(145deg, #e2e8ec, #caccce, #c2c8cc, #c7e1f3);
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.4),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  /* border-radius: 10px; */
+}
+
+.banner img:hover {
+  border: 2px solid;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
