@@ -4,10 +4,17 @@
   
    img {
     padding: 20px;
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
-    border-radius: 10px;
+    background: linear-gradient(145deg, #e2e8ec, #caccce, #c2c8cc, #c7e1f3);
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.4),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);;
+    /* border-radius: 10px; */
     
+  }
+  
+  img:hover{
+    border: 2px solid ;
+    background: transparent;
   }
   
   
