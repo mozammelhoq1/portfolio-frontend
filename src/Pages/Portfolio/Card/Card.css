@@ -1,0 +1,15 @@
+.portfolio{
+    overflow: hidden;
+}
+.portfolio img {
+  cursor: zoom-in;
+  width: 100%;
+  min-height: 250px;
+  transition: transform 1s ease-in-out;
+  overflow: hidden;
+}
+
+.portfolio img:hover {
+  transform: scale(1.2);
+  overflow: hidden;
+}
