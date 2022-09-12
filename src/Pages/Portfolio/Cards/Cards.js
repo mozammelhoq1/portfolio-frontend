@@ -9,8 +9,9 @@ const Cards = () => {
       img1: "https://placeimg.com/260/400/arch",
       img2: "https://placeimg.com/260/400/arch",
       img3: "https://placeimg.com/260/400/arch",
+      technology: ["Html5", "Css3", "Javascript", "Node js"],
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
     },
     {
       id: 2,
@@ -18,8 +19,9 @@ const Cards = () => {
       img1: "https://placeimg.com/260/400/arch",
       img2: "https://placeimg.com/260/400/arch",
       img3: "https://placeimg.com/260/400/arch",
+      technology: ["Html5", "Css3", "Javascript", "Node js"],
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
     },
     {
       id: 3,
@@ -27,8 +29,9 @@ const Cards = () => {
       img1: "https://placeimg.com/260/400/arch",
       img2: "https://placeimg.com/260/400/arch",
       img3: "https://placeimg.com/260/400/arch",
+      technology  : ["Html5", "Css3", "Javascript", "Node js"],
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
     },
     {
       id: 4,
@@ -36,8 +39,9 @@ const Cards = () => {
       img1: "https://placeimg.com/260/400/arch",
       img2: "https://placeimg.com/260/400/arch",
       img3: "https://placeimg.com/260/400/arch",
+      technology: ["Html5", "Css3", "Javascript", "Node js"], 
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
     },
     {
       id: 5,
@@ -45,8 +49,9 @@ const Cards = () => {
       img1: "https://placeimg.com/260/400/arch",
       img2: "https://placeimg.com/260/400/arch",
       img3: "https://placeimg.com/260/400/arch",
+      technology: ["Html5", "Css3", "Javascript", "Node js"],
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
     },
     {
       id: 6,
@@ -54,8 +59,9 @@ const Cards = () => {
       img1: "https://placeimg.com/260/400/arch",
       img2: "https://placeimg.com/260/400/arch",
       img3: "https://placeimg.com/260/400/arch",
+      technology: ["Html5", "Css3", "Javascript", "Node js", "React js", "Mongo db"],
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
     },
   ];
   return (<div className="container mx-auto my-12">
