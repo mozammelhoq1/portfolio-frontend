@@ -8,7 +8,8 @@ const Footer = () => {
         <img height={100} width={100} src={logo} alt="" />
         <p class="font-bold">
           MD. Mozammel Hoq's Portfolio <br />
-          Providing reliable tech since 1992
+          {/* Providing reliable tech since 1992 */}
+          *** Portfolio is Updating, Please don't panic. ***
         </p>
         <p>Copyright © 2022 - All right reserved</p>
       </div>
