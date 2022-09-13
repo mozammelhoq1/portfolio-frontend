@@ -5,7 +5,7 @@ const Cards = () => {
   const cards = [
     {
       id: 1,
-      title: "Card 1",
+      title: "Dental Spa",
       img1: "https://placeimg.com/260/400/arch",
       img2: "https://placeimg.com/260/400/arch",
       img3: "https://placeimg.com/260/400/arch",
@@ -15,7 +15,7 @@ const Cards = () => {
     },
     {
       id: 2,
-      title: "Card 2",
+      title: "Fragrantica Perfume",
       img1: "https://placeimg.com/260/400/arch",
       img2: "https://placeimg.com/260/400/arch",
       img3: "https://placeimg.com/260/400/arch",
@@ -25,7 +25,7 @@ const Cards = () => {
     },
     {
       id: 3,
-      title: "Card 3",
+      title: "Made In China",
       img1: "https://placeimg.com/260/400/arch",
       img2: "https://placeimg.com/260/400/arch",
       img3: "https://placeimg.com/260/400/arch",
@@ -35,7 +35,7 @@ const Cards = () => {
     },
     {
       id: 4,
-      title: "Card 4",
+      title: "Phone Finder",
       img1: "https://placeimg.com/260/400/arch",
       img2: "https://placeimg.com/260/400/arch",
       img3: "https://placeimg.com/260/400/arch",

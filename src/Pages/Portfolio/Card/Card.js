@@ -10,7 +10,7 @@ const Card = ({ card }) => {
           <img src={img1} class=" w-full  " alt="" />
         </div>
         <div className="flex-1 p-3 text-center">
-          <h1 class="text-2xl font-bold">{title}</h1>
+          <h1 class="card-title text-2xl">{title}</h1>
 
           {technology.map((tech, index) => (
             <kbd
@@ -22,16 +22,17 @@ const Card = ({ card }) => {
           ))}
         </div>
       </div>
-      <div className="flex  p-2 items-end ">
-        <p class=" w-9/12">
-          {description.slice(0, 100)}{" "}
-          <span className="font-bold">Read More</span>
-        </p>
-        <div className="w-3/12 text-end">
+      <div className="p-2">
+      <div className="my-2">
           <button className="btn btn-primary btn-xs  hover:bg-transparent hover:text-primary cursor-alias">
             Live Site
           </button>
         </div>
+        <p class="cursor-pointer">
+          {description.slice(0, 150)}{" "}
+          <span className="font-bold ml-1 cursor-grabbing ">Read More</span>
+        </p>
+        
       </div>
     </div>
   );
